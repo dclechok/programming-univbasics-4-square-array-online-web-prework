@@ -1,10 +1,12 @@
 def square_array(array)
   c = 0
-  while array[c]
-    array[c] = array[c] ** 2
+  new_array = []
+  
+  while array[counter] do
+    new_array << (array[c] **2)
     c += 1
   end
-  
+new_array
 end
 
 numbers = [1, 2, 3]
